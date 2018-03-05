@@ -1,0 +1,253 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kpsoftwaresolutions.shafiqapplication.fragments.PoliticalResumeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="-2dp"
+            android:layout_marginTop="-5dp"
+            android:padding="10dp"
+            android:background="@color/background"
+            android:layout_marginBottom="-5dp">
+
+            <TableLayout
+                android:id="@+id/table1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#ede9f3">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Former President,"/>
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Bangladesh Student Leugue, Rajshahi Mohanagar"/>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="2010 - 2014"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ede9f3"
+                android:layout_below="@id/table1"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Member,"/>
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Bangladesh Chattro Leugue, Rajshahi Mohanagar"/>
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="2003 - 2008"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ede9f3"
+                android:layout_below="@id/table2"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Member,"/>
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Bangladesh Chattro Leugue, Rajshahi College"/>
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="2002 - 2008"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ede9f3"
+                android:layout_below="@id/table3"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Ahobaihok,"/>
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Joy Bangla Parishod, Rajshahi"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ede9f3"
+                android:layout_below="@id/table4"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Advisor,"/>
+                <TextView
+                    android:id="@+id/tv13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="NorthBangla Agricultural Technology Institute, Rajshahi"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ede9f3"
+                android:layout_below="@id/table5"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Member,"/>
+                <TextView
+                    android:id="@+id/tv15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Bangladesh Etihas Sommiloni, Rajshahi"/>
+
+            </TableLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5910423341335020/5841521955"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/background">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="He was born on january 3rd ,1984 in Rajpara thana under Rajshahi District. He is the son of Md. Altaf Hossain and Mst. Saleha Begum. Mr Altaf Hossain is an active politician who was inspired by BangaBandhu Sheikh Mujibur Rahman.\n\n
+He was one of the members of Bangladesh Awami League (Rajshahi Committee) in 1954. Later he became the Vice-President of Rajshahi Mahanagar Awami League and Currently serving as an advisor of the same party. Mr Hossain is a proud freedom fighter of our country. For 60 years Mr Hossain and his family serving the people of Rajhshahi with great honor, dedication and dignity.\n\n
+Shafiquzzaman Shafiq  gained his masters degree in Sociology from Rajshahi College . From his early school life he was attached to politics. He was always craving to do something for the people and that will took him to follow the footsteps of his honorable father and elder brothers.\n\n
+Md Asaduzzam Asad, eldest of brothers of Shafiquzzaman Shafiq  is a veteran politician. He is currently the General Secretary of Bangladesh Awami League Rajshahi District. His Other brothers  Md Kamruzzam, Adv. Md Nuruzzaman Tuku and Md Rafiquzzaman are also serving Bangladesh Awami League with dedication throughout their life.\n\n
+Shafiquzzaman Shafiq  became the President of Bangladesh Student League Rajshahi Mahanagar and served from 2010-2014. During this period he performed his duties with his heart and soul. He never desired to follow the politics of post or power rather than being with people , standing for people and raising his voice for the people in need and against all the odds.\n\n
+During the crisis moments of 1/11, he held the sail of Rajshahi Mahanagar Student League . On 17th July,2007 after the day of our crazimatic leader Sheikh Hasina was arrested by the bad bloods, Shafi00quzzaman Shafiq  began protest for the release of our leader against all the odds even overcoming the fear of getting shot by the caretaker govt.\n\n
+Shafiquzzaman Shafiq  is a great family person. He is evenly loved by people of all political sentiment as well as age. He is ever caring person. A brother, a friend always there in need.\n\n
+He is married to Parvin Akhter. And they have a baby named Shouhardo Zaman.\n"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:textStyle="normal"
+            android:padding="5dp"
+            android:layout_below="@+id/tv1"
+            android:textColor="#0a090d"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Shafiquzzaman Shafiq"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#0a090d"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

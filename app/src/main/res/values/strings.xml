@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MD. SHAFIQUZZAMAN SHAFIQ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="version">Version 2.0</string>
+    <string name="contact_us">Contact us</string>
+    <string name="email">kpsoftwaresolutions09@gmail.com</string>
+    <string name="more_apps">More From Us</string>
+    <string name="about_me">He born in Rajshahi on January 3, 1984.
+        He gained his masters degree in Sociology from Rajshahi College. From his early school life he was attached to politics.
+        He is a Bangladeshi Politician from the Bangladesh Awami League
+        and former President of Bangladesh Student Leauge at Rajshahi Mohanagar Branch.
+        He is a honorable member of Awami Family since last 8 years.
+    </string>
+</resources>

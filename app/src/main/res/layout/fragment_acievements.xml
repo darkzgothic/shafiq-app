@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kpsoftwaresolutions.shafiqapplication.fragments.AcievementsFragment">
+
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginRight="-2dp"
+            android:layout_marginLeft="-2dp">
+
+
+            <TableLayout
+                android:id="@+id/table1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:background="#ede9f3">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="B.Ss. (Honr's) in Social Science,"/>
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Rajshahi College, National University"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/table1"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:background="#ede9f3">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="M.Ss. in Social Science,"/>
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#080113"
+                    android:text="Rajshahi College, National University"/>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/table2"
+                android:padding="5dp"
+                android:background="#ede9f3">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="After forming commitee in each and every school of Rajshahi Mahanagar he got those comitee working."/>
+
+            </TableLayout>
+
+
+            <TableLayout
+                android:id="@+id/table4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/table3"
+                android:padding="5dp"
+                android:background="#ede9f3">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:textColor="#080113"
+                    android:padding="5dp"
+                    android:text="Rajshahi Mahanagar Student Leauge achived as one of the most organized commitee by centarl, when he was Presedent at Rajshahi Mahanagar Student Leauge."/>
+
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5910423341335020/5841521955"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

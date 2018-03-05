@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ser"
+            android:title="About Me" />
+        <item
+            android:id="@+id/nav_life"
+            android:icon="@drawable/life"
+            android:title="Life Sketch" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_political"
+            android:icon="@drawable/resum"
+            android:title="Political Resume" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:icon="@drawable/achiev"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/share"
+            android:title="Social Connections" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/admin"
+            android:title="Admin" />
+
+    </group>
+
+
+</menu>

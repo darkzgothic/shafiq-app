@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "887062221429",
+    "firebase_url": "https://shafiqapplication.firebaseio.com",
+    "project_id": "shafiqapplication",
+    "storage_bucket": "shafiqapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887062221429:android:e40fe435ddaebda5",
+        "android_client_info": {
+          "package_name": "com.kpsoftwaresolutions.shafiqapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887062221429-argrf6essglkpdr5h14quufv5pcnh2ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kpsoftwaresolutions.shafiqapplication",
+            "certificate_hash": "9a2a95fdb9a5905c1698a0b25d4afc6338d4f08f"
+          }
+        },
+        {
+          "client_id": "887062221429-5ghdlnuq760cbjqjq2cta6pnm57epps4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwN9aaPt-ZqtoHcE66OSYCLw0CVV2jVqw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887062221429-5ghdlnuq760cbjqjq2cta6pnm57epps4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
